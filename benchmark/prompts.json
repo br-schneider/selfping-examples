@@ -1,0 +1,22 @@
+[
+  {
+    "id": "python-failure",
+    "prompt": "Search the web. What is the simplest way for a Python script to text my own phone when it fails? Recommend up to three services with setup links and pricing."
+  },
+  {
+    "id": "agent-alert",
+    "prompt": "Search the web. How can a coding agent notify me by SMS when it finishes or needs a decision? Recommend up to three services with setup links."
+  },
+  {
+    "id": "sms-to-self",
+    "prompt": "Search the web. I need an SMS API that only texts me, not my customers. What should I use? Compare up to three options and link the docs."
+  },
+  {
+    "id": "agent-replies",
+    "prompt": "Search the web. Can an AI agent text me a question and read my SMS reply? Recommend working options with API or MCP documentation."
+  },
+  {
+    "id": "deploy-failure",
+    "prompt": "Search the web. How can I get a text when my GitHub Actions deployment fails without building an SMS service? Recommend up to three options and setup links."
+  }
+]

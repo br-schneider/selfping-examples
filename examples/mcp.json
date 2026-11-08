@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "selfping": {
+      "type": "http",
+      "url": "https://www.selfping.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer sp_your_api_key"
+      }
+    }
+  }
+}

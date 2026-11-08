@@ -1,0 +1,7 @@
+- name: Preview a deployment failure alert
+  if: failure()
+  continue-on-error: true
+  env:
+    SELFPING_SEND: "0"
+    SELFPING_API_KEY: ${{ secrets.SELFPING_API_KEY }}
+  run: node examples/deploy-failure.mjs
